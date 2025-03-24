@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Ana 💌</title>
+    <link rel="stylesheet" href="love-notes.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💖 For the One and Only, Ana 💖</h1>
+        <p>Click the sticky notes to reveal little surprises!</p>
+
+        <div class="notes-container">
+            <div class="note" onclick="showMessage(this)">💌 Click me!</div>
+            <div class="note" onclick="showMessage(this)">💌 Click me!</div>
+            <div class="note" onclick="showMessage(this)">💌 Click me!</div>
+            <div class="note" onclick="showMessage(this)">💌 Click me!</div>
+        </div>
+
+        <audio id="bgMusic" loop>
+            <source src="bg-music.mp3" type="audio/mp3">
+        </audio>
+
+        <button id="playMusic" onclick="toggleMusic()">🎵 Play Music</button>
+    </div>
+
+    <script src="love-notes.js"></script>
+</body>
+</html>
