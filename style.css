@@ -6,7 +6,8 @@ body {
     background-size: cover;
     color: #fff;
     text-align: center;
-    overflow: hidden;
+    overflow-x: hidden; /* Keep horizontal hidden */
+    overflow-y: auto;
 }
 
 /* Moving Background Effect */
